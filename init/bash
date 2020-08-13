@@ -6,3 +6,8 @@ HOLY_HERE=~/.bashrc
 
 # $ holy one on # true
 . $(holy one path init)/once.sh
+
+tee -a $HOLY_HERE > /dev/null << END
+
+. "\$$HOLY_GOAL"/source.sh
+END

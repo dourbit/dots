@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+HOLY_COPY="holy you <command>"
+HOLY_GOAL=DOTS_HOME
+HOLY_HERE=~/.bashrc
+
+# $ holy one on # true
+. $(holy one path init)/once.sh

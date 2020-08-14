@@ -2,10 +2,9 @@
 
 HOLY_COPY="holy you <command>"
 HOLY_GOAL=DOTS_HOME
-HOLY_HERE=~/.bashrc
 
 # $ holy one on # true
-. $(holy one path init)/once.sh
+. $(holy one path init/once.sh)
 
 tee -a $HOLY_HERE > /dev/null << END
 

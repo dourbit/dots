@@ -7,5 +7,5 @@ Here suggested is `~/.dots` but what you call it is up to you.
 Adjust the dir path accordingly:
 
 ```sh
-holy you init ~/.dots && . holy rc
+holy you init ~/.dots && . ~/$(holy rc)
 ```

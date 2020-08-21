@@ -5,7 +5,7 @@
 # skip the extra check because that's very unlikely
 # holy-you will be tested through holy-env and also
 # the 1 asks it to be verbose about holy-you status
-holy-env "$HOLY_LEAD" 1 || return 1
+holy-env 1 || return 1
 
 
 # NOTE: this should be kept last

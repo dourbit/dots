@@ -10,13 +10,13 @@ export THIS_HOME="$DOTS_HOME"
 # essential for code portability between blesstheos and dots or its forks -
 # it is an indicator of bootstrapping in progress...
 
-# holy-one should be on, or holy-env won't be found
-# skip the extra check because that's very unlikely
+# holy-one should be on, or holy-sort won't be found
+# skip the extra check because that is very unlikely
 #
-# holy-you will be tested through holy-env and also
+# holy-you will be tested through holy-sort and also
 # the 1 asks it to be verbose about holy-you status
 # it exports $LEAD_HOME and $NEXT_HOME upon success
-holy-env 1 || {
+holy-sort 1 || {
   # clean-up here
   unset THIS_HOME
   return 1

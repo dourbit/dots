@@ -4,7 +4,7 @@
 #
 export THIS_HOME="$DOTS_HOME"
 # see it unset at the end of this source.sh
-# exists for more concise calls of uses and holy-dot
+# exists for more concise calls of holy-dot
 # thus this-that needs no path arg, for the time being...
 # only ever an issue when sourcing from the outside, e.g. ~/.bashrc, etc.
 # essential for code portability between blesstheos and dots or its forks -
